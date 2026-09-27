@@ -1,0 +1,48 @@
+/* DEARLY typography: editor UI only. Invitation text is separately scoped. */
+#studio{--dearly-ui:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,sans-serif;--dearly-serif:'Noto Serif KR','AppleMyungjo',serif;--dearly-text:#30392e;--dearly-muted:#616a5b}
+#studio .ow-section-head h2{font-family:var(--dearly-serif)!important;font-weight:500!important;font-size:clamp(28px,3vw,40px)!important;line-height:1.5!important;letter-spacing:-.035em!important;word-break:keep-all}
+#studio .ow-section-head>p:last-child{font:400 16px/1.8 var(--dearly-ui)!important;color:var(--dearly-muted)!important;word-break:keep-all}
+#studio .ow-eyebrow{font:600 12px/1.6 var(--dearly-ui)!important;letter-spacing:.12em!important;color:#5a694f!important}
+#studio .ow-controls{font-family:var(--dearly-ui)!important;color:var(--dearly-text)}
+#studio .ow-controls .ow-step-title h3,#studio #dearly-personal h3,#studio #dearly-typography h3{font:500 clamp(23px,2.1vw,28px)/1.55 var(--dearly-serif)!important;letter-spacing:-.035em!important;word-break:keep-all;margin:0!important}
+#studio #dearly-personal h3{margin:12px 0!important}
+#studio .ow-controls .ow-step-title>span{font:500 13px/1.6 var(--dearly-ui)!important;letter-spacing:.04em!important;color:#65745a!important}
+#studio .ow-controls p,#studio .ow-controls .ow-note,#studio #dearly-photo-help,#studio #dearly-photo-status,#studio #dearly-status,#studio #ow-status,#studio #dearly-login{font:400 14px/1.8 var(--dearly-ui)!important;color:var(--dearly-muted)!important;word-break:keep-all;overflow-wrap:anywhere}
+#studio .dearly-intro>span{font:600 11px/1.6 var(--dearly-ui)!important;letter-spacing:.12em!important;color:#5a694f!important}
+#studio .dearly-toolbar{font:400 13px/1.7 var(--dearly-ui)!important;color:var(--dearly-muted)!important}
+#studio .ow-controls label{font:600 14px/1.6 var(--dearly-ui)!important;color:var(--dearly-text)!important}
+#studio .ow-controls input:not([type=range]):not([type=checkbox]):not([type=file]),#studio .ow-controls textarea{font:400 16px/1.75 var(--dearly-ui)!important;letter-spacing:0!important;color:var(--dearly-text)!important}
+#studio .ow-controls input::placeholder,#studio .ow-controls textarea::placeholder{color:#717769!important;opacity:1}
+#studio .ow-controls button,#studio [aria-controls^=ow-stage],#studio .ow-faq summary{font:500 14px/1.55 var(--dearly-ui)!important;letter-spacing:-.015em!important}
+#studio [aria-controls^=ow-stage]{min-height:44px;padding-left:10px!important;padding-right:10px!important;white-space:nowrap}
+#studio .ow-controls .dearly-designs strong{font:500 17px/1.6 var(--dearly-serif)!important}
+#studio .ow-controls .dearly-designs small{font:500 11px/1.6 var(--dearly-ui)!important;letter-spacing:.05em!important}
+#studio .ow-controls .dearly-designs span{font:400 13px/1.7 var(--dearly-ui)!important}
+#studio .ow-controls .oc-option strong,#studio .ow-controls .ow-theme strong{font:600 16px/1.6 var(--dearly-ui)!important;letter-spacing:-.02em!important}
+#studio .ow-controls .oc-option small,#studio .ow-controls .ow-theme small{font:400 14px/1.7 var(--dearly-ui)!important;color:var(--dearly-muted)!important}
+#studio #dearly-empty strong{font:500 18px/1.85 var(--dearly-serif)!important;color:#4c5d42!important;word-break:keep-all}
+#studio #dearly-empty small,#studio .dearly-replace-hint{font:400 13px/1.7 var(--dearly-ui)!important;color:#526149!important}
+#studio .ow-faq summary{font-size:15px!important;line-height:1.7!important}
+#studio .ow-faq details p{font:400 14px/1.85 var(--dearly-ui)!important;color:var(--dearly-muted)!important}
+#dearly-typography{margin:32px 0;padding:28px 0;border-top:1px solid #dcded3;border-bottom:1px solid #dcded3}
+#studio #dearly-typography>p{margin:10px 0 20px}
+.dearly-font-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#studio .dearly-font-card{border:1px solid #d7dccc;background:#fcfbf8;color:#34422d;border-radius:10px;padding:18px 14px;text-align:left;min-width:0;cursor:pointer;transition:border-color .16s,background .16s}
+#studio .dearly-font-card[aria-pressed=true]{border-color:#647750;background:#eef2e7;box-shadow:inset 0 0 0 1px #647750}
+.dearly-font-label{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.dearly-font-label strong{font:600 14px/1.5 var(--dearly-ui)}
+.dearly-font-check{font:500 11px/1.5 var(--dearly-ui);color:#4e633d;visibility:hidden;white-space:nowrap}
+[aria-pressed=true] .dearly-font-check{visibility:visible}
+.dearly-font-sample{display:block;margin:22px 0 0;min-height:118px}
+.dearly-font-sample strong{display:block;font-weight:400;line-height:1.7;overflow-wrap:anywhere}
+.dearly-font-sample small{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-weight:400;line-height:1.9;margin-top:12px;white-space:pre-line;word-break:keep-all;overflow-wrap:anywhere}
+[data-font-choice=serif] .dearly-font-sample{font-family:'Noto Serif KR',serif}
+[data-font-choice=hand] .dearly-font-sample{font-family:'Nanum Pen Script','Noto Serif KR',serif}
+[data-font-choice=sans] .dearly-font-sample{font-family:var(--dearly-ui)}
+.dearly-font-sample strong{font-size:22px}.dearly-font-sample small{font-size:14px}
+[data-font-choice=hand] .dearly-font-sample strong{font-size:30px;line-height:1.4}[data-font-choice=hand] .dearly-font-sample small{font-size:20px;line-height:1.5}
+#studio .dearly-font-card:focus-visible{outline:3px solid #647750;outline-offset:4px}
+#studio #dearly-type-status{min-height:25px;margin:16px 0 0;font-size:13px!important;color:#4c603e!important}
+@media(max-width:900px){.dearly-font-options{grid-template-columns:1fr}.dearly-font-sample{min-height:0;margin-top:14px}.dearly-font-sample small{margin-top:6px}#studio .dearly-font-card{padding:18px 20px}}
+@media(max-width:600px){#studio .dearly-photo-layout{grid-template-columns:1fr}#studio .dearly-crop{width:100%;max-width:340px;justify-self:center}#studio .dearly-toolbar{flex-wrap:wrap}#studio .dearly-designs strong{font-size:15px!important}#studio .dearly-cloud-buttons{flex-wrap:wrap}#studio .dearly-cloud-buttons button{min-width:0;white-space:normal}#studio [aria-controls^=ow-stage]{font-size:13px!important}}
+@media(prefers-reduced-motion:reduce){#studio .dearly-font-card{transition:none}}

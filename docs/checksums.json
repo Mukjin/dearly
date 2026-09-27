@@ -1,0 +1,13 @@
+{
+  ".gitignore": "cf372d8ff9f98f71e92cef07608eb39b7dc4a861b3fd29d03d6b1aaace452d62",
+  "README.md": "d747fd92ccf4a19f1f271348b2eb35a7de8aacc3f415778b2d355bae7f9b5da1",
+  "backups/before-typography/footer.js": "fdbb81c14fa9d1b55ead667a1ec07ee51eace66fd64824f94836d92ebc7fb953",
+  "backups/before-typography/index.html": "2836f4a9922998f7b994e0a559ee7772a6736463de9800cabeda387c7db0611a",
+  "docs/ROLLBACK.md": "8ec6f73e45c0789b7e97472a6d284882e98c53fba248d09b8edf40ac3f743dba",
+  "docs/external-assets.json": "769d9a56eebf7f92f87d99d38651e517c00efb63e67098b18f67d92fbcc88adb",
+  "site/index.html": "3fba1825111ea68ff93efd287d991ed28d66d3ca89921c9ca843334218c293da",
+  "src/footer.js": "333c6d219e3d58a1f9259a9b0a5228d3e9cbda748ea9c656434844943d18c54e",
+  "src/typography/invitation-type.css": "b384d51aaa606b1b16a30e75e7c4546efbe48b5218961f64d11093ead85e7c5a",
+  "src/typography/typography.css": "21d7c2aaa2aef17d5447554c59b57b19e528dd38c802f5aace7972a6d6972406",
+  "src/typography/typography.js": "91fd6579bed4d07997ef10883a5e368de578dea9ada4a441ec443591f0c5452c"
+}
