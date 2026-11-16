@@ -13,3 +13,5 @@ footer.after.js SHA256 eb9b05d386477c20e03b6f83fe00a39be99f305544fa0ae52c3daed40
 
 Verified: syntax and serialization; invalid/legacy fallback; all three fonts update actual invitation DOM; browser reload restores selected hand font; 390px layout has no horizontal overflow; update accepted by server without warnings.
 Public source backup may contain platform scope alias __zsScopeRoot. Prefer server restore point for exact rollback.
+
+Security patch note: the checked-in before-typography copies now include the guest sharing URL binding fix. They retain the earlier typography but are no longer byte-for-byte copies of the original snapshot. The hashes above identify historical platform exports; docs/checksums.json identifies the current checked-in files. A platform restore point may predate the fix: reapply the guest sharing fix and run the share-context tests before publishing restored code. Updating this repository does not update the hosted Zaemit component automatically.

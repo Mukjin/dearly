@@ -1,13 +1,14 @@
 {
   ".gitignore": "cf372d8ff9f98f71e92cef07608eb39b7dc4a861b3fd29d03d6b1aaace452d62",
-  "README.md": "d747fd92ccf4a19f1f271348b2eb35a7de8aacc3f415778b2d355bae7f9b5da1",
-  "backups/before-typography/footer.js": "fdbb81c14fa9d1b55ead667a1ec07ee51eace66fd64824f94836d92ebc7fb953",
-  "backups/before-typography/index.html": "2836f4a9922998f7b994e0a559ee7772a6736463de9800cabeda387c7db0611a",
-  "docs/ROLLBACK.md": "8ec6f73e45c0789b7e97472a6d284882e98c53fba248d09b8edf40ac3f743dba",
+  "README.md": "1230c3fa330a2623245adffa3c87176f0baa2a544c867f27648e524123a2fa25",
+  "backups/before-typography/footer.js": "2dabd47bd852bfebf08f10aa15e59d5fb676dcf19159bb7f8ae9217ed892f39c",
+  "backups/before-typography/index.html": "978b2ddc084fd10275563099b54dd985a341b228b44c047955d47e7cae78e11e",
+  "docs/ROLLBACK.md": "99c6d508860fb0bd1d7c9a4278fc5e1fba729fd5b3c9f03ca89aed6cd14a5f8f",
   "docs/external-assets.json": "769d9a56eebf7f92f87d99d38651e517c00efb63e67098b18f67d92fbcc88adb",
-  "site/index.html": "3fba1825111ea68ff93efd287d991ed28d66d3ca89921c9ca843334218c293da",
-  "src/footer.js": "333c6d219e3d58a1f9259a9b0a5228d3e9cbda748ea9c656434844943d18c54e",
+  "site/index.html": "1d89839bde52380d1f958da21f8593c4d19f4c7ce11603c858cac9f8661566df",
+  "src/footer.js": "c78595e1fec6af20cba2266b12bf5174cb57e11de95dec1dcb3c4ceeb9e391b0",
   "src/typography/invitation-type.css": "b384d51aaa606b1b16a30e75e7c4546efbe48b5218961f64d11093ead85e7c5a",
   "src/typography/typography.css": "21d7c2aaa2aef17d5447554c59b57b19e528dd38c802f5aace7972a6d6972406",
-  "src/typography/typography.js": "91fd6579bed4d07997ef10883a5e368de578dea9ada4a441ec443591f0c5452c"
+  "src/typography/typography.js": "91fd6579bed4d07997ef10883a5e368de578dea9ada4a441ec443591f0c5452c",
+  "tests/share-context.test.mjs": "f5398b4a633a4180767f20a10fdee1fe179997bdeab52eedcfecbfbe1bf3d03c"
 }
